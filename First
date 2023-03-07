@@ -1,0 +1,12 @@
+import numpy as np
+
+first = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
+
+print(first.ndim) # confirm dimensions
+
+print(first[1,4]) # prints fouth element of second row
+
+print(first[0, 2:4]) # slices first row
+
+newfirst = first.astype('S')
+print(newfirst.dtype)
